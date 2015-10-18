@@ -3,7 +3,7 @@
 
 This repository is contains information related to the tool ReFDistiller presented in FSE, 2014 . Link to paper : http://dl.acm.org/citation.cfm?id=2661674
 
-This repository is not the original repository for this tool. Here are some links to the original project:
+This repository _is not_ the original repository for this tool. Here are some links to the original project:
 
 Source Code was not available  . 
 
