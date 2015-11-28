@@ -1,0 +1,52 @@
+Installation of RefDistiller:
+
+This VM comes pre-installed with RefDistiller and all its required dependencies.
+
+Steps to be followed in case you want to run it on a new machine:
+
+For Linux Ubuntu Flavors (This should work for other Linux flavors too but this was tested using Linux Ubuntu 14.04 LTS Desktop version, 64-bit)
+________________________________________________________________________________________________________________________________________________
+1) - Install jre8
+
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+
+This will install jre8.Check by typing:
+
+java -version
+
+you should get output similar to:
+
+java version "1.8.0_60"
+Java(TM) SE Runtime Environment (build 1.8.0_60-b27)
+Java HotSpot(TM) 64-Bit Server VM (build 25.60-b23, mixed mode)
+________________________________________________________________________________________________________________________________________________
+2) Dowmload The latest version of Eclipse (64-bit) JEE from :
+
+Install it using:
+
+tar -xzvf <filename>
+
+Incase of a command-line installation, use the following command for installing Eclipse Mars (64-bit) JavaEE edition for Linux:
+wget http://mirror.cc.columbia.edu/pub/software/eclipse/technology/epp/downloads/release/mars/1/eclipse-jee-mars-1-linux-gtk-x86_64.tar.gz
+tar -xzvf eclipse-jee-mars-1-linux-gtk-x86_64.tar.gz
+________________________________________________________________________________________________________________________________________________
+3) Download RefDistiller's Eclipse Plugin from the authors website:
+https://sites.google.com/site/refdistiller/
+
+The authors have recently revoked permission to this link, which is the only original source of this tool. The plugin can also be downloaded from the following github repository (Note: this is NOT the author's repository) using:
+
+wget https://github.com/SoftwareEngineeringToolDemos/FSE-2014-RefDistiller/raw/master/Binary/refDistiller.tar.gz
+
+Extract the downloaded file using:
+
+tar -xzvf refDistiller.tar.gz
+
+Copy and Paste the extracted elements into the plugins folder under eclipse folder. Restart Eclipse (if Eclipse was already running) to ensure that the changes are reflected.
+________________________________________________________________________________________________________________________________________________
+4) Tool in Action:
+
+Go to Windows-> Show View-> Other-> RefDistller-> RefDistillerView to enable seeing the tool in action.
+________________________________________________________________________________________________________________________________________________
+
