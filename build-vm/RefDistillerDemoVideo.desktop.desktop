@@ -1,6 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Link to RefDistillerDemo - YouTube
+Name=RefDistillerDemoVideo
 Type=Link
 URL=https://www.youtube.com/watch?v=jZfaYCdRBfA
 Icon=text-html
+Name[en_US]=RefDistillerDemoVideo.desktop
