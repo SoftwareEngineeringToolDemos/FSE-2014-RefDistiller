@@ -7,21 +7,12 @@
 6. To shutdown the VM, run the command: "vagrant halt" if you want vagrant to attempt a graceful shutdown. If not, then run the command: "vagrant halt -f"
 
 #Note
-* Please wait until "vagrant up" command has completed successfully before using the virtual machine.
+* Please wait until "vagrant up" command has completed successfully before using the virtual machine. The process takes around 15-20 minutes depending on the download speed to download Eclipse and JDK packages. 
+* When Eclipse runs, it will prompt you for a workspace. Proceed to specify one. After that a welcome screen is shown. Closing it will show the Project Explorer view where the Example projects are already imported.
 * VM login details if required:</br>
 User     : vagrant</br>
 Password : vagrant 
 
-* Run the command:
-~~~
-java -version
-~~~
- to verify the installation of JDK 8 on the VM. You should expect to see an output similar to this:
-~~~
-java version "1.8.0_66"
-Java(TM) SE Runtime Environment (build 1.8.0_66-b17)
-Java HotSpot(TM) 64-Bit Server VM (build 25.66-b17, mixed mode)
-~~~
 # Acknowledgments
 * Used vagrant virtual box image of [ubuntu-trusty64-gui by chad-thompson](https://atlas.hashicorp.com/chad-thompson/boxes/ubuntu-trusty64-gui).
 
