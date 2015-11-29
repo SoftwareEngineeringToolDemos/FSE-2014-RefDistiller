@@ -23,9 +23,6 @@ Vagrant.configure(2) do |config|
 	# Install wget utility
    	sudo apt-get install -y wget
 
-	# Install unzip utility
-   	sudo apt-get install -y unzip
-
 	# Install git utility
  	sudo apt-get install -y git
 
@@ -45,7 +42,7 @@ Vagrant.configure(2) do |config|
   	tar xvzf refDistiller.tar.gz
 
 	# Install eclipse command line project import plugin 
-   	wget ‐‐directory-prefix=/home/vagrant/Desktop/EclipseFiles/eclipse/plugins https://github.com/seeq12/eclipse-import-projects-plugin/raw/master/jar/com.seeq.eclipse.importprojects_1.3.0.jar
+   	wget https://github.com/seeq12/eclipse-import-projects-plugin/raw/master/jar/com.seeq.eclipse.importprojects_1.3.0.jar
 
 	cd ../../
 
@@ -55,6 +52,7 @@ Vagrant.configure(2) do |config|
 	cd FSE-2014-RefDistiller/build-vm
 	sudo chmod +x commands.sh
 
+	# Copy files on the desktop
 	cp commands.sh ../../commands.sh
 	cp RefDistiller.desktop ../../RefDistiller.desktop
 	cp Readme.txt ../../Readme.txt
@@ -66,12 +64,11 @@ Vagrant.configure(2) do |config|
 	cp RefDistillerWorkspace.tar.gz ../../RefDistillerWorkspace.tar.gz
 
 	cd ../../
-
 	tar xvzf RefDistillerWorkspace.tar.gz
 
+	# Enable tool to run on startup
 	sudo mkdir "/home/vagrant/.config/autostart"
 	sudo cp RefDistiller.desktop /home/vagrant/.config/autostart/RefDistiller.desktop
-
 	
 	#Remove unused Launcher Applications
 	sudo rm -f "/usr/share/applications/ubuntu-amazon-default.desktop"

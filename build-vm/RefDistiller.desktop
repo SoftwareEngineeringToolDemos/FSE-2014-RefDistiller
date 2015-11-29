@@ -1,5 +1,5 @@
 [Desktop Entry]
 Name[en_US]=RefDistiller
-Exec=gnome-terminal -e "bash -c 'sudo ./Desktop/commands.sh;$SHELL'"
+Exec=gnome-terminal -e "bash -c 'sudo /home/vagrant/Desktop/commands.sh;$SHELL'"
 Terminal=true
 Type=Application
