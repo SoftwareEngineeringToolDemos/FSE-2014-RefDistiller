@@ -11,7 +11,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 
 In this repository, for RefDistiller you will find:
 * :x: Source code (not available)
-* :white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2014-RefDistiller/blob/master/refDistillerFiles%20.rar) (available)
+* :white_check_mark: [The original tool](https://github.com/SoftwareEngineeringToolDemos/FSE-2014-RefDistiller/blob/master/refDistiller.rar) (available)
 
 This repository was constructed by [Apoorv Mahajan](https://github.com/apoorvmahajan) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to Miryung Kim for his help in establishing this repository.
  
